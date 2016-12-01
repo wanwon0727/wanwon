@@ -48,7 +48,7 @@ public class Shoot extends JFrame implements Runnable, KeyListener {
    int enCnt = 0;
    while(true) { // 무한루프 -_-a 아직도 이런식으로 짜다니
    // Thread.sleep(10);
-    Thread.sleep(10); // 잠시 정지 시키는 메소드, 왜쓰지? -> 게임속도 늦추고, 빠르게 하고
+    Thread.sleep(100); // 잠시 정지 시키는 메소드, 왜쓰지? -> 게임속도 늦추고, 빠르게 하고
     if(start) { // start가 참이면 아래로
      if(enCnt > 20) { // encnt가 2000보다 크면 아래구문 실행
       enCreate();
